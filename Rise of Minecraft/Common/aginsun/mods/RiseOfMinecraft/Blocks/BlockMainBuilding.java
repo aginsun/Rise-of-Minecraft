@@ -17,14 +17,19 @@ public class BlockMainBuilding extends Block
 		setBlockName("blockMainBuilding");
 		this.setCreativeTab(CreativeTabs.tabBlock);
 	}
+
 	@SideOnly(Side.CLIENT)
 	public String getTextureFile()
 	{
 		return "aginsun/textures/riseofminecraft/blocks.png"; //TODO: add texture files
 	}
-    @SideOnly(Side.CLIENT)
-    public int getBlockTextureFromSide(int i)
-    { 
-    	return 0;
-    }
+
+    	@SideOnly(Side.CLIENT)
+    	public int getBlockTextureFromSide(int i)
+    	{ 
+    		return 0;
+   	}
+	//public void OnBlockActivated(....)
+	//{
+	//}
 }
