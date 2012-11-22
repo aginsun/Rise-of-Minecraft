@@ -29,7 +29,7 @@ public class RiseOfMinecraft
 	@Init
 	public void Init(FMLInitializationEvent event)
 	{
-		
+		ModBlocks.init();	
 	}
 	
 	@PostInit
