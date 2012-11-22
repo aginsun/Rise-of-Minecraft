@@ -10,6 +10,7 @@ public class GuiMainBuilding extends GuiScreen //TODO: might change this to gui 
 	@Override
 	public void initGui()
 	{
-		//TODO: add buttons
+		//ControlList.add(new GuiButton(0, width, height, 200, 20, "This");
+		//TODO: add more buttons :D
 	}
 }
